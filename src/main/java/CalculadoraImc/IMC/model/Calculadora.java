@@ -30,7 +30,7 @@ public class Calculadora {
         } else if (imc >= 25.00 && imc <= 29.99) {
             this.mensagem = "IMC = " + imc + "  Classificação de risco elevado para a saúde";
         } else if (imc >= 30.00 && imc <= 34.99) {
-            this.mensagem = "IMC =" + imc + "  Classificação de risco muito elevado para a saúde";
+            this.mensagem = "IMC = " + imc + "  Classificação de risco muito elevado para a saúde";
         } else if (imc >= 35.00 && imc <= 39.99) {
             this.mensagem = "IMC = " + imc + "  Classificação de risco muitíssimo elevado para a saúde";
         } else if (imc >= 40.00) {
